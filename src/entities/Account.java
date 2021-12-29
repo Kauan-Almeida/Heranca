@@ -28,11 +28,10 @@ public class Account {
 	public Double getBalance() {
 		return balance;
 	}
-	public void wihdraw(double amount) {
-		balance -= amount;
+	public void withdraw(double amount) {
+		balance -= amount + 5.0;
 	}
 	public void deposit(double amount) {
 		balance += amount;
 	}
-	
 }
